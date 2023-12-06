@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RecipeAss2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FF6347</item> <!-- 红色 -->
+        <item name="colorPrimaryVariant">#FF4500</item> <!-- 较深的红色 -->
+        <item name="colorOnPrimary">@color/white</item> <!-- 白色文本 -->
+        <item name="colorSecondary">#FFA500</item> <!-- 橙黄色 -->
+        <item name="colorSecondaryVariant">#FF8C00</item> <!-- 较深的橙黄色 -->
+        <item name="colorOnSecondary">@color/black</item> <!-- 黑色文本 -->
+        <item name="android:statusBarColor">#FF6347</item> <!-- 状态栏颜色为红色 -->
+        <!-- Customize your theme here. -->
+
+
+        <!--        Theme.MaterialComponents.DayNight.DarkActionBar-->
+    </style>
+
+    <style name="Theme.RecipeAss2.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.RecipeAss2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.RecipeAss2.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+</resources>
